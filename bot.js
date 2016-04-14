@@ -1,4 +1,4 @@
-var token = 'your slack key here'; //slack bot api key
+var token = process.env.SLACK_TOKEN; //slack bot api key, this gets key from environment variable for beepboop
 
 var Botkit = require('botkit');
 var http = require('http');
